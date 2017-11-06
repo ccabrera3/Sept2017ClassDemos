@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Chinook.Data.POCOs
 {
-    class SelectionList
+    public class SelectionList
     {
+        public int IDValueField { get; set; }
+        public string DisplayText { get; set; }
     }
 }
